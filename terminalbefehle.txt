@@ -1,0 +1,12 @@
+Langgraph Studio:
+.venv/bin/langgraph dev
+
+
+frontend
+echo "Frontend wird eingerichtet..."
+npm install
+echo "Frontend wird gestartet..."
+npm run dev
+
+backend
+uvicorn main:app --reload
